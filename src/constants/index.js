@@ -26,6 +26,8 @@ import {
   excercise,
   fullstack,
   iphone,
+  tshirt,
+  tic
 } from "../assets";
 
 export const navLinks = [
@@ -172,32 +174,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
@@ -274,7 +251,7 @@ const projects = [
     source_code_link: "https://github.com/Hassaan-Coder/Excercise-Web-App",
   },
   {
-    name: "E-commmerce web/app",
+    name: "Tic-Tac-Toe game",
     description:
         "The e-commerce website/app I designed and developed offers a vast range of audio devices. The website's intuitive interface allows users to navigate easily and find their desired products quickly. The website also ensures a smooth and secure payment process to provide a seamless shopping experience.Watch full video at @hassaan_codes(instagram)",
      
@@ -296,13 +273,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: fullstack,
+    image: tic,
     source_code_link: "https://github.com/",
   },
   {
     name: "iPhone landing/about page",
     description:
-      "The portfolio website showcases my skills in designing stunning UI for iPhone. The landing page features an aesthetically pleasing design that highlights the visual aspects of my work. The website also includes a comprehensive description of my experience and skills in UI design, making it an ideal platform for potential clients to learn more about my work.",
+      "This  website showcases my skills in designing stunning UI for iPhone. The landing page features an aesthetically pleasing design that highlights the visual aspects of my work. The website also includes a comprehensive description of my experience and skills in UI design, making it an ideal platform for potential clients to learn more about my work.",
     tags: [
       {
         name: "reactJS",
@@ -327,7 +304,7 @@ const projects = [
   {
     name: "THREE.JS T-shirt Design Web/App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to deign their t-shirts according to thier will. ",
     tags: [
       {
         name: "reactJS",
@@ -346,10 +323,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: iphone,
+    image: tshirt,
     source_code_link: "https://github.com/Hassaan-Coder/Three.js-Tshirt-design",
   },
   
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences,  projects };

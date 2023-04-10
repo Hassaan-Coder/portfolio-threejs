@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import tshirt from "./tshirt.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import excercise from "./excercise.png";
 import fullstack from "./full-stack-web.png";
 import iphone from "./iphone.png";
+import tic from "./tic-tac-toe.jpeg";
 
 
 
@@ -66,5 +67,7 @@ export {
   tripguide,
   excercise,
   fullstack,
-  iphone
+  iphone,
+  tshirt,
+  tic
 };

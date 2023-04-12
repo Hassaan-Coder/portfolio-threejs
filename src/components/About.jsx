@@ -7,8 +7,9 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+     <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -21,6 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
+        
         <img
           src={icon}
           alt='web-development'
@@ -32,7 +34,7 @@ const ServiceCard = ({ index, title, icon }) => (
         </h3>
       </div>
     </motion.div>
-  </Tilt>
+       </Tilt>
 );
 
 const About = () => {
@@ -47,11 +49,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I have expertise in JavaScript and popular frameworks like React, Next.js, and React Native.
-        I am also learning three.js in order to create more exciting user-interfaces like this.
-        I work closely with clients to create efficient and user-friendly solutions that solve real-world problems. 
-        I'm eager to work with your company and seeking mentorship from senior developers
-        to enhance my skills and contribute more effectively to the team's success.
+        I'm a skilled software developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks like React, Node.js, and
+        Three.js. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
